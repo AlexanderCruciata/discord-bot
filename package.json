@@ -1,0 +1,45 @@
+{
+  "name": "start-discord-bot",
+  "version": "1.1.4",
+  "description": "Quickly create a Developer friendly Discord bot Development Environment",
+  "main": "index.js",
+  "bin": {
+    "start-discord-bot": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "prod": "node ./dist/index.js"
+  },
+  "keywords": [
+    "discord-bot",
+    "typescript",
+    "ts",
+    "mongodb"
+  ],
+  "author": "Divyanshu Parihar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderCruciata/create-discord-bot.git"
+  },
+  "homepage": "https://github.com/AlexanderCruciata/create-discord-bot#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "config": "^3.3.12",
+    "discord.js": "^14.15.3",
+    "mongoose": "^8.4.4",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.39",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^16.18.101",
+    "discord-api-types": "^0.23.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexanderCruciata/create-discord-bot/issues"
+  }
+}
